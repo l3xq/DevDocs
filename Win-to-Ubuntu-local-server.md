@@ -152,7 +152,15 @@ bind-address
 
 
 And if you are experienced - why are you reading this? In my case I had no use for /home, so I've placed partitioned it with following scheme:
-TODO scheme -> most in /var and /usr, with bit of swap and root
+
+ Mount point  |  Size
+ -------------|-------------
+ /boot/efi    |  512M
+ /            |  40G
+ /var         |  250G
+ /tmp         |  10G
+ /home        |  40G
+ [SWAP]       |  30G
 
 4. I suggest that you install security update automatically.
 5. Considering that this was my first headless installation of headless Ubuntu, I had new clue what I actually needed preinstalled, so I've choosen everything. Everything that follows after is waiting time for download, and voala!
