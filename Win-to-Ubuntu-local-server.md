@@ -1,5 +1,21 @@
 # Windows & Ubuntu server interaction workflow
 
+### Table of Contents
+
+
+- [Heading](#heading)
+  * [Sub-heading](#sub-heading)
+    + [Sub-sub-heading](#sub-sub-heading)
+- [Heading](#heading-1)
+  * [Sub-heading](#sub-heading-1)
+    + [Sub-sub-heading](#sub-sub-heading-1)
+- [Heading](#heading-2)
+  * [Sub-heading](#sub-heading-2)
+    + [Sub-sub-heading](#sub-sub-heading-2)
+
+
+<!-- toc -->
+
 ## Use case:
 > When one gets tired of _enterprise_ applications breaking up on Linux (usually with poor explanation why, and no way to fix it). But there is a way to get the best of both worlds IMHO.
 
