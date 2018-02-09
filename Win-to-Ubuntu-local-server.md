@@ -1,16 +1,14 @@
 # Windows & Ubuntu server interaction workflow
 
-### Table of Contents
-
-
-- [Use Case](#heading)
-- [Windows 10](#heading-1)
-- [Ubuntu Server](#heading-2)
+# Table of Contents
+- [Use case](#use-case)
+- [Windows 10](#win10)
+- [Ubuntu Server](#ubuntu-server)
 
 
 <!-- toc -->
 
-## Use case:
+## Use case
 > When one gets tired of _enterprise_ applications breaking up on Linux (usually with poor explanation why, and no way to fix it). But there is a way to get the best of both worlds IMHO.
 
 > At this point local server is intended only for PHP related work, and a bit of node. So anything that I've installed was towards that goal.
