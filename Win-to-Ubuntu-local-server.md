@@ -4,8 +4,18 @@
 - [Use case](#use-case)
 - [Windows 10](#win10)
   * [Terminal](#terminal)
+  * [Mounting Linux FS](#mounting-linux-fs)
+  * [SSH](#ssh)
+  * [Firewall](#firewall)
+  * [PHP Storm setup](#php-storm-setup)
+  * [Workbench 6.3 setup](#workbench-6.3-setup)
+    + [MySQL](#mysql)
 - [Ubuntu Server](#ubuntu-server)
   * [Post OS Installation](#post-os-installation)
+  
+
+
+
 
 <!-- toc -->
 
@@ -25,14 +35,14 @@
 ![Git Bash][git-bash-gif]
 
 
-*Mounting Linux FS*
+### *Mounting Linux FS*
 
 
 For mounting remote-local drive, I've used [WinSSHfs](https://github.com/Foreveryone-cz/win-sshfs/releases). Which in my case required additional dll `dokan1.dll` to be placed in source dir; it can be found at [Dokany repo](https://github.com/dokan-dev/dokany/releases)
 Example mounting connection using SSH pairs.
 
 
-*SSH*
+### *SSH*
 
 
 I've decided to use ssh-keys _(they can be located at C:\Users\<whoami>\.ssh)_ instead of passwords. So to create new pair, simply insert in terminal:
@@ -73,10 +83,38 @@ This is the only point in which password will be required. Next:
 Now with each connection request, password wont be required.
 
 
-*Firewall*
+### *Firewall*
 
 
     TODO: Add UFW suggestions
+
+
+### *PHP Storm setup*
+
+
+In these [pictures (1 to 4)](https://github.com/l3xq/DevDocs/blob/master/ext/pics_PHPStorm_WBench) is shown how to setup remote 'deployment' within PHPStorm.
+
+
+### *Workbench 6.3 setup*
+
+
+![Workbench setup][workbench]
+
+
+#### *MySQL*
+
+
+If there are any issues connecting Workbench to MySQL server do the following:
+
+
+`$ sudo vim /etc/mysql/mysql.conf.d/mysql.cnf`
+
+Comment out these lines:
+```
+skip-external-locking
+bind-address
+```
+
 
 ## Ubuntu Server
 
@@ -114,32 +152,6 @@ TODO scheme -> most in /var and /usr, with bit of swap and root
 
 Script with my specific software requirements. TODO GIST
 
-
-*PHP Storm setup*
-
-
-In these [pictures (1 to 4)](https://github.com/l3xq/DevDocs/blob/master/ext/pics_PHPStorm_WBench) is shown how to setup remote 'deployment' within PHPStorm.
-
-
-*Workbench 6.3 setup*
-
-
-![Workbench setup][workbench]
-
-
-*MySQL*
-
-
-If there are any issues connecting Workbench to MySQL server do the following:
-
-
-`$ sudo vim /etc/mysql/mysql.conf.d/mysql.cnf`
-
-Comment out these lines:
-```
-skip-external-locking
-bind-address
-```
 
 
 
