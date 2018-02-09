@@ -36,6 +36,8 @@ _**Workflow**_
 
     For now only unresolved questions are how do I bind my local server with only one internal IP, and how to resolve double V-Hosts after IPs have been sorted out (So only a bit of research...)
 
+*Note: This is WIP.*
+
 ## Windows 10 client
 
 
