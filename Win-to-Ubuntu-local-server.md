@@ -7,13 +7,20 @@
 
 [Windows 10 client]
 
-*Terminal* GitBash suggested. Because in SSH it supports xterm colors, ZSH (Oh-My-Zsh) as well as tmux. Here is my CUSTOMPROF settings.
+
+*Terminal* 
+
+GitBash suggested. Because in SSH it supports xterm colors, ZSH (Oh-My-Zsh) as well as tmux. Here is my CUSTOMPROF settings.
 
 *Mounting Linux FS*
+
+
 For mounting remote-local drive, I've used [WinSSHfs](https://github.com/Foreveryone-cz/win-sshfs/releases). Which in my case required additional dll `dokan1.dll` to be placed in source dir; it can be found at [Dokany repo](https://github.com/dokan-dev/dokany/releases)
 Example mounting connection using SSH pairs.
 
 *SSH*
+
+
 I've decided to use ssh-keys instead of passwords. So to create new pair, simply insert in terminal:
 `$ ssh-keygen -t rsa -b 4096 -C "email@thyself.com"`
 and they can be located at C:\Users\<whoami>\.ssh
@@ -35,9 +42,12 @@ This is the only point in which password will be required. Next:
 Now with each connection request, password wont be required.
 
 *Firewall*
+
+
     TODO: Add UFW suggestions
 
 [Ubuntu Server]
+
 
 * Download [Ubuntu16.04LTS(headless) Torrent](http://releases.ubuntu.com/16.04/ubuntu-16.04.3-server-amd64.iso.torrent?_ga=2.93931348.89627716.1518119172-582049912.1518119172) -> in installation process choose what works best for you. Following is my suggestion for newcommers to Linux:
 
