@@ -121,12 +121,12 @@ In these [pictures (1 to 4)](https://github.com/l3xq/DevDocs/blob/master/ext/pic
 *MySQL*
 
 
-If there are issue connecting Workbench to MySQL server do the following:
+If there are any issues connecting Workbench to MySQL server do the following:
 
 
 `$ sudo vim /etc/mysql/mysql.conf.d/mysql.cnf`
 
-* comment out these lines:
+Comment out these lines:
 ```
 skip-external-locking
 bind-address
