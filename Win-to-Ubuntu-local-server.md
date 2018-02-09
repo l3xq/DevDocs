@@ -13,6 +13,9 @@
 **GitBash** suggested. Because in SSH it supports xterm colors, ZSH (Oh-My-Zsh) as well as tmux. Here are my [GitBashTTY settings](https://gist.github.com/l3xq/07aebaad79e51ed28756e9a4dc2a8012).
 
 
+![Git Bash][git-bash-gif]
+
+
 *Mounting Linux FS*
 
 
@@ -110,6 +113,6 @@ _Post OS Installation_
 [encrypt-home]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/2.PNG
 [part-disks]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/3.PNG
 [soft-select]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/4.PNG
-
+[git-bash-gif]: https://github.com/l3xq/DevDocs/blob/master/ext/GitBash.gif
 
 
