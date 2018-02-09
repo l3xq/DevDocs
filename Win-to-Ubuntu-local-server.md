@@ -5,12 +5,12 @@
 
 > At this point local server is intended only for PHP related work, and a bit of node. So anything that I've installed was towards that goal.
 
-[Windows 10 client]
+## Windows 10 client
 
 
 *Terminal* 
 
-GitBash suggested. Because in SSH it supports xterm colors, ZSH (Oh-My-Zsh) as well as tmux. Here is my CUSTOMPROF settings.
+**GitBash** suggested. Because in SSH it supports xterm colors, ZSH (Oh-My-Zsh) as well as tmux. Here are my [GitBashTTY settings](https://gist.github.com/l3xq/07aebaad79e51ed28756e9a4dc2a8012).
 
 
 *Mounting Linux FS*
@@ -66,7 +66,7 @@ Now with each connection request, password wont be required.
 
     TODO: Add UFW suggestions
 
-[Ubuntu Server]
+## Ubuntu Server
 
 
 * Download [Ubuntu16.04LTS(headless) Torrent](http://releases.ubuntu.com/16.04/ubuntu-16.04.3-server-amd64.iso.torrent?_ga=2.93931348.89627716.1518119172-582049912.1518119172) -> in installation process choose what works best for you. Following is my suggestion for newcommers to Linux:
