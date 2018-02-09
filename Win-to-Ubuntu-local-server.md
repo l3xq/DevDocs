@@ -100,17 +100,11 @@ most in /var and /usr, with bit of swap and root
 ![Which Software do I actually need?][soft-select]
 
 
-[install-type]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/1.PNG
-[encrypt-home]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/2.PNG
-[part-disks]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/3.PNG
-[soft-select]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/4.PNG
-[git-bash-gif]: https://github.com/l3xq/DevDocs/blob/master/ext/GitBash.gif
+*Post OS Installation*
 
 
-_Post OS Installation_
-    TODO 6. Script with my specific software needs.
+Script with my specific software requirements. TODO GIST
 
-    TODO Add *MySQL* settings & integration with WorkBench
 
 *PHP Storm setup*
 
@@ -123,10 +117,29 @@ In these [pictures (1 to 4)](https://github.com/l3xq/DevDocs/blob/master/ext/pic
 
 ![Workbench setup][workbench]
 
+
+*MySQL*
+
+
+If there are issue connecting Workbench to MySQL server do the following:
+
+
+`$ sudo vim /etc/mysql/mysql.conf.d/mysql.cnf`
+
+* comment out these lines:
+```
+skip-external-locking
+bind-address
+```
+
+
+
+
+
+[install-type]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/1.PNG
+[encrypt-home]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/2.PNG
+[part-disks]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/3.PNG
+[soft-select]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/4.PNG
+[git-bash-gif]: https://github.com/l3xq/DevDocs/blob/master/ext/GitBash.gif
 [workbench]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_PHPStorm_WBench/wb-connect.PNG
-
-
-
-
-
 
