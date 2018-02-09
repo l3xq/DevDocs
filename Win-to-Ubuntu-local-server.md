@@ -72,11 +72,23 @@ Now with each connection request, password wont be required.
 * Download [Ubuntu16.04LTS(headless) Torrent](http://releases.ubuntu.com/16.04/ubuntu-16.04.3-server-amd64.iso.torrent?_ga=2.93931348.89627716.1518119172-582049912.1518119172) -> in installation process choose what works best for you. Following is my suggestion for newcommers to Linux:
 
 1. Choose "Install Ubuntu Server HWM" only if your hardware is really recent (e.g. CPU fabricated less than 4 months ago). Else use standard Kernel.
+
+
 ![Installation Type Standard/HWM][install-type]
+
+
 2. Enable home directory encryption! Be mindful of your security.
+
+
 ![Encrypt Home Folder][encrypt-home]
+
+
 3. If you have little experience with Partitioning Disks, choose Guided mode **(LVM)**, which will enable easier resizing, adding and encrypting/decrypting down the road. 
+
+
 ![Guided LVM][part-disks]
+
+
 And if you are experienced - why are you reading this? In my case I had no use for /home, so I've placed partitioned it with following scheme:
 most in /var and /usr, with bit of swap and root
 
@@ -95,11 +107,9 @@ _Post OS Installation_
 
 
 [install-type]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/1.PNG
-[encrypt-home]: https://imgur.com/WWhoY4f
-[part-disks]: https://imgur.com/Qr7dMxw
-[soft-select]: https://imgur.com/4eJ8144
-
- https://imgur.com/Gm8KHAX
+[encrypt-home]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/2.PNG
+[part-disks]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/3.PNG
+[soft-select]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/4.PNG
 
 
 
