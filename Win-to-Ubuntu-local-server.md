@@ -73,9 +73,9 @@ Now with each connection request, password wont be required.
 
 1. Choose "Install Ubuntu Server HWM" only if your hardware is really recent (e.g. CPU fabricated less than 4 months ago). Else use standard Kernel.
 
-
+<p align="center">
 ![Installation Type Standard/HWM][install-type]
-
+</p>
 
 2. Enable home directory encryption! Be mindful of your security.
 
