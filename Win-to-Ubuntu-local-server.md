@@ -94,11 +94,12 @@ _Post OS Installation_
 
 
 
-[install-type]: https://imgur.com/Gm8KHAX
+[install-type]: DevDocs/ext/pics_UbuntuServer/1.PNG
 [encrypt-home]: https://imgur.com/WWhoY4f
 [part-disks]: https://imgur.com/Qr7dMxw
 [soft-select]: https://imgur.com/4eJ8144
 
+ https://imgur.com/Gm8KHAX
 
 
 
