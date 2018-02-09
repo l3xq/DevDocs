@@ -5,7 +5,7 @@
 - [Windows 10](#win10)
   * [Terminal](#terminal)
 - [Ubuntu Server](#ubuntu-server)
-  * [Post OS Installation](#post-install)
+  * [Post OS Installation](#post-os-installation)
 
 <!-- toc -->
 
