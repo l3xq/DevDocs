@@ -2,6 +2,7 @@
 
 ### Table of Contents
 - [Use case](#use-case)
+- [Server](#server)
 - [Windows 10](#win10)
   * [Terminal](#terminal)
   * [Mounting Linux FS](#mounting-linux-fs)
@@ -26,12 +27,12 @@
 
 
 ## Server
-The so-called server is refurbished laptop that I've used up until recently [i7-4720HQ, 16GB RAM & 256 SSD]. The router is 1G, Huawei-something (the devil is in the details, right? Security is important!)
+The so-called server is refurbished laptop that I've used up until recently _**[Eq: i7-4720HQ, 16GB RAM & SSD]**_. The router is 1G, Huawei-something (the devil is in the details, right? Security is important!)
 
 I was surprised by the unexpected power that headless Ubuntu brought - and it stays extremely quiet while under quite a bit of load.
 
-**Workflow**
-    At this point, the only job of the server is to serve :troll: in local emulated environment SugarCRM projects, and from time to time some Django/Node. Which I access from my Windows machine, using a combination of emulation and SSH (GitBash, WinSSHfs, PHPStorm, Workbench)...
+_**Workflow**_
+    At this point, the only job of the server is to serve :troll: in local emulated environment PHP projects, and from time to time some Django/Node. Which I access from my Windows machine, using a combination of emulation and SSH (GitBash, WinSSHfs, PHPStorm, Workbench)...
 
     For now only unresolved questions are how do I bind my local server with only one internal IP, and how to resolve double V-Hosts after IPs have been sorted out (So only a bit of research...)
 
@@ -40,7 +41,7 @@ I was surprised by the unexpected power that headless Ubuntu brought - and it st
 
 ### *Terminal* 
 
-**GitBash** suggested. Because in SSH it supports xterm colors, ZSH (Oh-My-Zsh) as well as tmux. Here are my [GitBashTTY settings](https://gist.github.com/l3xq/07aebaad79e51ed28756e9a4dc2a8012). And demo of solarized GitBash with xterm colors enabled for VIM within SSH:
+**GitBash** suggested. Because in SSH it supports xterm colors, **ZSH** (Oh-My-Zsh) as well as **tmux**. Here are my [GitBashTTY settings](https://gist.github.com/l3xq/07aebaad79e51ed28756e9a4dc2a8012). And demo of solarized GitBash with xterm colors enabled for VIM within SSH:
 
 
 ![Git Bash][git-bash-gif]
