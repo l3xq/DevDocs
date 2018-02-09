@@ -10,7 +10,7 @@
 
 *Terminal* 
 
-**GitBash** suggested. Because in SSH it supports xterm colors, ZSH (Oh-My-Zsh) as well as tmux. Here are my [GitBashTTY settings](https://gist.github.com/l3xq/07aebaad79e51ed28756e9a4dc2a8012).
+**GitBash** suggested. Because in SSH it supports xterm colors, ZSH (Oh-My-Zsh) as well as tmux. Here are my [GitBashTTY settings](https://gist.github.com/l3xq/07aebaad79e51ed28756e9a4dc2a8012). And demo of solarized GitBash with xterm colors enabled for VIM within SSH:
 
 
 ![Git Bash][git-bash-gif]
@@ -100,19 +100,33 @@ most in /var and /usr, with bit of swap and root
 ![Which Software do I actually need?][soft-select]
 
 
-_Post OS Installation_
-    TODO 6. Script with my specific software needs.
-
-    TODO Add *MySQL* settings & integration with WorkBench
-
-    TODO Add *PhpStorm* setup process
-
-
-
 [install-type]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/1.PNG
 [encrypt-home]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/2.PNG
 [part-disks]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/3.PNG
 [soft-select]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/4.PNG
 [git-bash-gif]: https://github.com/l3xq/DevDocs/blob/master/ext/GitBash.gif
+
+
+_Post OS Installation_
+    TODO 6. Script with my specific software needs.
+
+    TODO Add *MySQL* settings & integration with WorkBench
+
+*PHP Storm setup*
+
+
+In these [pictures (1 to 4)](https://github.com/l3xq/DevDocs/blob/master/ext/pics_PHPStorm_WBench) is shown how to setup remote 'deployment' within PHPStorm.
+
+
+*Workbench 6.3 setup*
+
+
+![Workbench setup][workbench]
+
+[workbench]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_PHPStorm_WBench/wb-connect.PNG
+
+
+
+
 
 
