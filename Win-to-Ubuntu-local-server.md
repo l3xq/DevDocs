@@ -1,7 +1,7 @@
 # Windows & Ubuntu server interaction workflow
 
 ## Use case:
-> When one gets tired of _enterprise_ applications breaking up on Linux (usualy with poor explanation why, and no way to fix it). But there is a way to get the best of both worlds IMHO.
+> When one gets tired of _enterprise_ applications breaking up on Linux (usually with poor explanation why, and no way to fix it). But there is a way to get the best of both worlds IMHO.
 
 > At this point local server is intended only for PHP related work, and a bit of node. So anything that I've installed was towards that goal.
 
@@ -32,7 +32,7 @@ I've decided to use ssh-keys _(they can be located at C:\Users\<whoami>\.ssh)_ i
 `$ ssh-keygen -t rsa -b 4096 -C "email@thyself.com"`
 
 
-Now to enable **passwordless flow**, you'll have to get pysical contact with your Server, and type:
+Now to enable **passwordless flow**, you'll have to get physical contact with your Server, and type:
 
 
 `$ ssh-keygen -t rsa -b 4096 -C "email@thyself.com"`    [Note: Will be required later for ease-of-use Git]
@@ -93,7 +93,7 @@ Now with each connection request, password wont be required.
 
 
 And if you are experienced - why are you reading this? In my case I had no use for /home, so I've placed partitioned it with following scheme:
-most in /var and /usr, with bit of swap and root
+TODO scheme -> most in /var and /usr, with bit of swap and root
 
 4. I suggest that you install security update automatically.
 5. Considering that this was my first headless installation of headless Ubuntu, I had new clue what I actually needed preinstalled, so I've choosen everything. Everything that follows after is waiting time for download, and voala!
@@ -142,4 +142,3 @@ bind-address
 [soft-select]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/4.PNG
 [git-bash-gif]: https://github.com/l3xq/DevDocs/blob/master/ext/GitBash.gif
 [workbench]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_PHPStorm_WBench/wb-connect.PNG
-
