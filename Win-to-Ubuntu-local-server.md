@@ -88,15 +88,16 @@ most in /var and /usr, with bit of swap and root
 _Post OS Installation_
     TODO 6. Script with my specific software needs.
 
+    TODO Add *MySQL* settings & integration with WorkBench
+
+    TODO Add *PhpStorm* setup process
+
+
 
 [install-type]: https://imgur.com/Gm8KHAX
 [encrypt-home]: https://imgur.com/WWhoY4f
 [part-disks]: https://imgur.com/Qr7dMxw
 [soft-select]: https://imgur.com/4eJ8144
-
-
-
-
 
 
 
