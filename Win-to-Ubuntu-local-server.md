@@ -12,17 +12,19 @@
 
 GitBash suggested. Because in SSH it supports xterm colors, ZSH (Oh-My-Zsh) as well as tmux. Here is my CUSTOMPROF settings.
 
+
 *Mounting Linux FS*
 
 
 For mounting remote-local drive, I've used [WinSSHfs](https://github.com/Foreveryone-cz/win-sshfs/releases). Which in my case required additional dll `dokan1.dll` to be placed in source dir; it can be found at [Dokany repo](https://github.com/dokan-dev/dokany/releases)
 Example mounting connection using SSH pairs.
 
+
 *SSH*
 
 
 I've decided to use ssh-keys instead of passwords. So to create new pair, simply insert in terminal:
-`$ ssh-keygen -t rsa -b 4096 -C "email@thyself.com"`
+    `$ ssh-keygen -t rsa -b 4096 -C "email@thyself.com"`
 and they can be located at C:\Users\<whoami>\.ssh
 
 Now to enable passwordless flow, you'll have to get pysical contact with your Server, and type:
@@ -40,6 +42,7 @@ This is the only point in which password will be required. Next:
 `$ sudo systemctl reload ssh`
 
 Now with each connection request, password wont be required.
+
 
 *Firewall*
 
