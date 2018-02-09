@@ -22,7 +22,18 @@
 ## Use case
 > When one gets tired of _enterprise_ applications breaking up on Linux (usually with poor explanation why, and no way to fix it). But there is a way to get the best of both worlds IMHO.
 
-> At this point local server is intended only for PHP related work, and a bit of node. So anything that I've installed was towards that goal.
+> At this point local server is intended only for PHP related work, and a bit of Python/Node. So anything that I've installed was towards that goal.
+
+
+## Server
+The so-called server is refurbished laptop that I've used up until recently [i7-4720HQ, 16GB RAM & 256 SSD]. The router is 1G, Huawei-something (the devil is in the details, right? Security is important!)
+
+I was surprised by the unexpected power that headless Ubuntu brought - and it stays extremely quiet while under quite a bit of load.
+
+**Workflow**
+    At this point, the only job of the server is to serve :troll: in local emulated environment SugarCRM projects, and from time to time some Django/Node. Which I access from my Windows machine, using a combination of emulation and SSH (GitBash, WinSSHfs, PHPStorm, Workbench)...
+
+    For now only unresolved questions are how do I bind my local server with only one internal IP, and how to resolve double V-Hosts after IPs have been sorted out (So only a bit of research...)
 
 ## Windows 10 client
 
