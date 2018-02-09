@@ -1,10 +1,11 @@
 # Windows & Ubuntu server interaction workflow
 
-# Table of Contents
+### Table of Contents
 - [Use case](#use-case)
 - [Windows 10](#win10)
+  * [Terminal](#terminal)
 - [Ubuntu Server](#ubuntu-server)
-
+  * [Post OS Installation](#post-install)
 
 <!-- toc -->
 
@@ -16,7 +17,7 @@
 ## Windows 10 client
 
 
-*Terminal* 
+### *Terminal* 
 
 **GitBash** suggested. Because in SSH it supports xterm colors, ZSH (Oh-My-Zsh) as well as tmux. Here are my [GitBashTTY settings](https://gist.github.com/l3xq/07aebaad79e51ed28756e9a4dc2a8012). And demo of solarized GitBash with xterm colors enabled for VIM within SSH:
 
@@ -108,7 +109,7 @@ TODO scheme -> most in /var and /usr, with bit of swap and root
 ![Which Software do I actually need?][soft-select]
 
 
-*Post OS Installation*
+### *Post OS Installation*
 
 
 Script with my specific software requirements. TODO GIST
