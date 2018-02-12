@@ -197,4 +197,4 @@ Script with my specific software requirements. TODO GIST
 [soft-select]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/4.PNG
 [git-bash-gif]: https://github.com/l3xq/DevDocs/blob/master/ext/GitBash.gif
 [workbench]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_PHPStorm_WBench/wb-connect.PNG
-[acrosync]: https://github.com/l3xq/DevDocs/tree/master/ext/acrosync.png
+[acrosync]: https://github.com/l3xq/DevDocs/blob/master/ext/acrosync.png
