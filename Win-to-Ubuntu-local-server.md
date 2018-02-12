@@ -55,6 +55,18 @@ _**Workflow**_
 For mounting remote-local drive, I've used [WinSSHfs](https://github.com/Foreveryone-cz/win-sshfs/releases). Which in my case required additional dll `dokan1.dll` to be placed in source dir; it can be found at [Dokany repo](https://github.com/dokan-dev/dokany/releases)
 Example mounting connection using SSH pairs.
 
+_Update:_ 
+
+
+Found more elegant solution (which I'll be testing for one week before I get licence).
+
+
+Syncing files and folders, almost with no delay:
+
+
+[Acrosync](https://acrosync.com/home.html) 
+![Acrosync][acrosync]
+
 
 ### *SSH*
 
@@ -185,3 +197,4 @@ Script with my specific software requirements. TODO GIST
 [soft-select]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/4.PNG
 [git-bash-gif]: https://github.com/l3xq/DevDocs/blob/master/ext/GitBash.gif
 [workbench]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_PHPStorm_WBench/wb-connect.PNG
+[acrosync]: https://github.com/l3xq/DevDocs/tree/master/ext/acrosync.PNG
