@@ -167,7 +167,7 @@ bind-address
 ![Guided LVM][part-disks]
 
 
-And if you are experienced - why are you reading this? In my case I had no use for /home, so I've placed partitioned it with following scheme:
+And if you are experienced - why are you reading this? In my case I had no use for /home (except storing \*rc files & .ssh), so I've partitioned my system with following scheme:
 
  Mount point  |  Size
  -------------|-------------
@@ -179,7 +179,14 @@ And if you are experienced - why are you reading this? In my case I had no use f
  [SWAP]       |  30G
 
 4. I suggest that you install security update automatically.
-5. Considering that this was my first headless installation of headless Ubuntu, I had new clue what I actually needed preinstalled, so I've choosen everything. Everything that follows after is waiting time for download, and voala!
+
+
+![Security Updates][sec-updates]
+
+
+5. Considering that this was my first headless installation of headless Ubuntu, I had no clue what I actually needed preinstalled, so I've choosen almost everything. Everything that follows after is waiting time for download, and voala!
+
+
 ![Which Software do I actually need?][soft-select]
 
 
@@ -191,12 +198,12 @@ Script with my specific software requirements. TODO GIST
 
 
 
+[install-type]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/1.png
+[encrypt-home]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/2.png
+[part-disks]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/3.png
+[sec-updates]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/4.png
+[soft-select]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/5.png
 
-
-[install-type]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/1.PNG
-[encrypt-home]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/2.PNG
-[part-disks]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/3.PNG
-[soft-select]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/4.PNG
 [git-bash-gif]: https://github.com/l3xq/DevDocs/blob/master/ext/GitBash.gif
 [workbench]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_PHPStorm_WBench/wb-connect.PNG
 [acrosync]: https://github.com/l3xq/DevDocs/blob/master/ext/acrosync.png
