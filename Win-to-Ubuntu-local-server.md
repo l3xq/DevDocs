@@ -82,7 +82,9 @@ I've decided to use ssh-keys _(they can be located at C:\Users\<whoami>\.ssh)_ i
 Now to enable **passwordless flow**, you'll have to get physical contact with your Server, and type:
 
 
-`$ ssh-keygen -t rsa -b 4096 -C "email@thyself.com"`    [Note: Will be required later for ease-of-use Git]
+`$ ssh-keygen -t rsa -b 4096 -C "email@thyself.com"`    *[**Note:** Will be required later for ease-of-use Git]*
+
+
 `$ ip addr show`
 
 
@@ -91,7 +93,7 @@ Write down local IP, and MAC addresses, based on which connection type you've us
 Now on Windows Client type:
 
 
-`$ cat ~/.ssh/id_rsa.pub`    [Note: There might be more elegant solution than this!]
+`$ cat ~/.ssh/id_rsa.pub`    *[**Note:** There might be more elegant solution than this!]*
 
 
 Mark the output of the public key, and Copy it (Ctrl+Ins) to clipboard. Now:
@@ -104,7 +106,11 @@ This is the only point in which password will be required. Next:
 
 
 `$ vim ~/.ssh/authorized_keys` and Paste(Shift+Ins) the Public key of Client machine. Esc+wq.
+
+
 `$ sudo vim /etc/ssh/sshd_config` find _PasswordAuthentication_, uncomment and set to _no_. Find _PubkeyAuthentication_ and set to _yes_.
+
+
 `$ sudo systemctl reload ssh`
 
 
