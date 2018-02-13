@@ -178,7 +178,7 @@ And if you are experienced - why are you reading this? In my case I had no use f
  /home        |  40G
  [SWAP]       |  30G
 
-4. I suggest that you install security update automatically.
+4. It is suggested that you install security updates automatically.
 
 
 ![Security Updates][sec-updates]
@@ -202,7 +202,7 @@ Script with my specific software requirements. TODO GIST
 [encrypt-home]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/2.PNG
 [part-disks]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/3.PNG
 [sec-updates]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/4.PNG
-[soft-select]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/5.PNG
+[soft-select]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/5.png
 
 [git-bash-gif]: https://github.com/l3xq/DevDocs/blob/master/ext/GitBash.gif
 [workbench]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_PHPStorm_WBench/wb-connect.PNG
