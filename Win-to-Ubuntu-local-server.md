@@ -198,11 +198,11 @@ Script with my specific software requirements. TODO GIST
 
 
 
-[install-type]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/1.png
-[encrypt-home]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/2.png
-[part-disks]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/3.png
-[sec-updates]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/4.png
-[soft-select]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/5.png
+[install-type]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/1.PNG
+[encrypt-home]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/2.PNG
+[part-disks]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/3.PNG
+[sec-updates]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/4.PNG
+[soft-select]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_UbuntuServer/5.PNG
 
 [git-bash-gif]: https://github.com/l3xq/DevDocs/blob/master/ext/GitBash.gif
 [workbench]: https://github.com/l3xq/DevDocs/blob/master/ext/pics_PHPStorm_WBench/wb-connect.PNG
