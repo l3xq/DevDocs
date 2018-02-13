@@ -27,16 +27,16 @@
 
 
 ## Server
-The so-called server is refurbished laptop that I've used up until recently _**[Eq: i7-4720HQ, 16GB RAM & SSD]**_. The router is 1G, Huawei-something (the devil is in the details, right? Security is important!)
+The so-called server is refurbished laptop that I've used up until recently _**[CPU: i7-4720HQ, RAM: 16GB & SSD: 500GB]**_. The router is 1G, Huawei-something (the devil is in the details, right? Security is important!)
 
-I was surprised by the unexpected power that headless Ubuntu brought - and it stays extremely quiet while under quite a bit of load.
+I was surprised by the unexpected power that headless Ubuntu brought - and server stays extremely quiet while under quite a bit of load.
 
 _**Workflow**_
-    At this point, the only job of the server is to serve :troll: in local emulated environment PHP projects, and from time to time some Django/Node. Which I access from my Windows machine, using a combination of emulation and SSH (GitBash, WinSSHfs, PHPStorm, Workbench)...
+    At this point, the only job of the server is to act as local emulated environment PHP projects, and from time to time some Python/Node. All of which I access from my Windows machine, using a combination of emulation and SSH (GitBash, WinSSHfs, PHPStorm, Workbench)...
 
     For now only unresolved questions are how do I bind my local server with only one internal IP, and how to resolve double V-Hosts after IPs have been sorted out (So only a bit of research...)
 
-*Note: This is WIP.*
+***Note:** This is still **WIP**.*
 
 ## Windows 10 client
 
